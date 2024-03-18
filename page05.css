@@ -1,0 +1,236 @@
+*{margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    text-decoration: none;
+    font-family: "Montserrat", sans-serif;
+}
+
+body{
+    height: 2000px;
+    position: fixed;
+}
+
+.cabecalho{
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 60px;
+    background-color: #ffffff;
+}
+
+
+
+ul{
+    list-style: none;
+    display: flex;
+    align-items: center;
+    height: 100%;
+    margin: 0;
+}
+
+li{
+    margin-right: 10px ;
+}
+
+a{
+    color: #000000;
+    text-decoration: none;
+    padding-right: 30px;
+    font-size: 20px;
+}
+
+.cabecalho-item-Sobremim{
+    position: relative;
+    left: 70px;
+}
+
+.cabecalho-item-Academico{
+    position: relative;
+    left: 180px;
+}
+
+.cabecalho-item-Experiencia{
+    position: relative;
+    left: 600px;
+}
+
+.cabecalho-item-Portifolio{
+    position: relative;
+    left: 700px;
+}
+.cabecalho-item-centro{
+
+    position: relative;
+    left: 40px;
+    height: 60px;;
+    
+ 
+ }
+
+.boxwhitepri{
+    position: fixed;
+    left:250px;
+    top:100px;
+    width: 250px;
+    height: 200px;
+    background-color: #ffffff;
+}
+ .boxpinkpri{
+    position: fixed;
+    left:240px;
+    top:110px;
+    width: 250px;
+    height: 200px;
+    border: 2px solid #ffffff;
+    background-color: #FCE8D2;
+ }
+
+ .boxwhitesec{
+    position: fixed;
+    left:850px;
+    top:100px;
+    width: 250px;
+    height: 200px;
+    background-color: #ffffff;
+ }
+
+ .boxpinksec{
+    position: fixed;
+    left:840px;
+    top:110px;
+    width: 250px;
+    height: 200px;
+    border: 2px solid #ffffff;
+    background-color: #FCE8D2;
+ }
+
+ .boxwhiteter{
+    position: fixed;
+    left:250px;
+    top:400px;
+    width: 250px;
+    height: 200px;
+    background-color: #ffffff;
+}
+.boxpinkter{
+    position: fixed;
+    left:240px;
+    top:410px;
+    width: 250px;
+    height: 200px;
+    border: 2px solid #ffffff;
+    background-color: #FCE8D2;
+}
+.boxwhitequa{
+    position: fixed;
+    left:850px;
+    top:400px;
+    width: 250px;
+    height: 200px;
+    background-color: #ffffff;
+}
+.boxpinkqua{
+    position: fixed;
+    left:840px;
+    top:410px;
+    width: 250px;
+    height: 200px;
+    border: 2px solid #ffffff;
+    background-color: #FCE8D2;
+}
+    
+.btn{
+    position: fixed;
+    left: 1270px;
+    top: 550px;
+    width: 60px;
+    height: 50px;
+    background-color: #ffffff;
+    color: #000;
+    border-radius: 50px;
+    border: none;
+    cursor: pointer;
+    z-index: 4;
+}
+
+.heart {
+    width: 50px;
+    height: 50px;
+    position: relative;
+    transform: rotate(-135deg);
+    margin: 510px auto;
+    left: 1260px;
+    
+}
+    
+    
+  
+  
+  .square {
+    width: 50px;
+    height: 50px;
+    position: absolute;    
+    background-color: #ffffff;
+  }
+  
+  .circle {
+    width: 50px;
+    height: 50px;
+    border-radius: 50px;
+    position: absolute;    
+    background-color: #ffffff;
+  }
+  
+  .top {
+    top: 50%;
+  }
+  
+  .left {
+    left: 50%;
+  }
+ 
+  .Comunicação{
+    position: fixed;
+    left: 242px;    
+    top:180px; 
+    font-family: "Open Sans", sans-serif;  
+    font-style: normal;
+    text-align: center;        
+    font-size: 15px;
+    font-weight: 200;
+  }
+
+  .AnalisedeResultados{
+    position: fixed;
+    left: 850px;    
+    top:180px; 
+    font-family: "Open Sans", sans-serif;  
+    font-style: normal;
+    text-align: center;        
+    font-size: 15px;
+    font-weight: 200;
+  }
+
+  .Embreve1{
+    position: fixed;
+    left: 320px;    
+    top:500px; 
+    font-family: "Open Sans", sans-serif;  
+    font-style: normal;
+    text-align: center;        
+    font-size: 15px;
+    font-weight: 200;
+
+  }
+
+  .Embreve2{
+    position: fixed;
+    left: 930px;    
+    top:500px; 
+    font-family: "Open Sans", sans-serif;  
+    font-style: normal;
+    text-align: center;        
+    font-size: 15px;
+    font-weight: 200;
+  }

@@ -1,0 +1,176 @@
+*{margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    text-decoration: none;
+    font-family: "Montserrat", sans-serif;
+}
+
+body{
+    height: 2000px;
+    position: fixed;
+}
+
+.cabecalho{
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 60px;
+    background-color: #ffffff;
+}
+
+
+
+ul{
+    list-style: none;
+    display: flex;
+    align-items: center;
+    height: 100%;
+    margin: 0;
+}
+
+li{
+    margin-right: 10px ;
+}
+
+a{
+    color: #000000;
+    text-decoration: none;
+    padding-right: 30px;
+    font-size: 20px;
+}
+
+.cabecalho-item-Sobremim{
+    position: relative;
+    left: 70px;
+}
+
+.cabecalho-item-Academico{
+    position: relative;
+    left: 180px;
+}
+
+.cabecalho-item-Experiencia{
+    position: relative;
+    left: 600px;
+}
+
+.cabecalho-item-Portifolio{
+    position: relative;
+    left: 700px;
+}
+.cabecalho-item-centro{
+
+    position: relative;
+    left: 40px;
+    height: 60px;;
+    
+ 
+ }
+ .office{
+    opacity: 0.5;
+    position: fixed;    
+    left: 0px;
+    top:60px;
+ }
+
+ .boxwhite1{
+    position: fixed;
+    left: 430px;
+    top:140px;
+    width: 850px;
+    height: 440px;
+    background-color: #ffffff;
+ }
+
+ .Experiência{
+    position: fixed;
+    left: 950px;
+    top:120px;
+    font-family: "Great Vibes", cursive;
+    font-weight: 200;
+    font-style: normal;
+    font-size: 90px;
+    z-index: 2;
+ }
+
+ .Injoy{
+    position: fixed;
+    left: 450px;    
+    top:200px; 
+    font-family: "Open Sans", sans-serif;  
+    font-style: normal;        
+    font-size: 20px;
+    font-weight: 200;
+    z-index: 3;
+ }
+
+ .NotreDame{
+    position: fixed;
+    left: 450px;    
+    top:300px; 
+    font-family: "Open Sans", sans-serif;  
+    font-style: normal;        
+    font-size: 20px;
+    font-weight: 200;
+    z-index: 3;
+ }
+
+ .Parafuzo{
+    position: fixed;
+    left: 450px;    
+    top:400px; 
+    font-family: "Open Sans", sans-serif;  
+    font-style: normal;        
+    font-size: 20px;
+    font-weight: 200;
+    z-index: 3
+ }
+ .btn{
+    position: fixed;
+    left: 1270px;
+    top: 550px;
+    width: 60px;
+    height: 50px;
+    background-color: #ffffff;
+    color: #000;
+    border-radius: 50px;
+    border: none;
+    cursor: pointer;
+    z-index: 4;
+}
+
+.heart {
+    width: 50px;
+    height: 50px;
+    position: relative;
+    transform: rotate(-135deg);
+    margin: 510px auto;
+    left: 1275px;
+}
+    
+    
+  
+  
+  .square {
+    width: 50px;
+    height: 50px;
+    position: absolute;    
+    background-color: #ffffff;
+  }
+  
+  .circle {
+    width: 50px;
+    height: 50px;
+    border-radius: 50px;
+    position: absolute;    
+    background-color: #ffffff;
+  }
+  
+  .top {
+    top: 50%;
+  }
+  
+  .left {
+    left: 50%;
+  }
